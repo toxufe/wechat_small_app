@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+<button type="primary" bindtap="pullData">pullData</button>
+<text>{{list.name}}</text>
+<text>{{list.age}}</text>
+<text>{{list.sex}}</text>
+</view>

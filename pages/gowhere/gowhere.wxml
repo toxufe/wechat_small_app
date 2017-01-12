@@ -1,0 +1,45 @@
+<view class="flex-wrp">
+
+  <!--<view wx:for="{{[zero, 1, 2, 3, 4]}}"> {{item}} </view>-->
+
+  <!--<template is="myItem" data="{{...myItem}}"/>-->
+  <!--<block wx:for="{{myItem}}" wx:for-item="item">
+    <template is="myItem" data="{{...myItem}}"/>
+  </block>-->
+
+  <!--<view class="section section_gap" wx:for="{{array}}" wx:for-item="item">
+      <view class="section__title">{{item.text}}</view>
+      <view class="section__ctn">
+        <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{src}}"></image>
+      </view>
+    </view>-->
+
+    <block wx:for="{{myItem}}" wx:for-item="item">
+      <view data-id="{{index + 1}}" catchtap="go">
+        <image mode="aspectFit" src="{{item.img}}"></image>
+        <text>{{item.name}}</text>
+        </view>
+    </block>
+
+  <!--<view data-id="1" bindtap="go">
+    <image mode="aspectFit" src="../../resouces/plane.png"></image>
+    <text>飞机票</text>
+  </view>
+  <view data-id="2" bindtap="go">
+    <image mode="aspectFit" src="../../resouces/train.png"></image>
+    <text>火车票</text>
+  </view>
+  <view data-id="3" bindtap="go">
+    <image mode="aspectFit" src="../../resouces/bus.png"></image>
+    <text>汽车票</text>
+  </view>-->
+  </view>
+  <view style="left:{{left}}%;" class="box-border">
+  <view class="sanjiaoxing"></view>
+  </view>
+  <!--<template name="myItem">
+      <view data-id="411" bindtap="go">
+        <image mode="aspectFit" src=""></image>
+        <text>444</text>
+      </view>
+  </template>-->

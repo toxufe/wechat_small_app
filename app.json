@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/gowhere/gowhere",
+    "pages/index/calculater",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1ba9ba",
+    "navigationBarTitleText": "去哪里出行",
+    "navigationBarTextStyle":"light"
+  }
+}

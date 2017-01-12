@@ -1,0 +1,25 @@
+<view class="display">{{currentNum}}</view>
+<view class="flex-wrp" style="flex-direction:row;">
+    <button bindtap="opersystem" data-num="+">+</button>
+    <button bindtap="clickDigt" data-num="9">9</button>
+    <button bindtap="clickDigt" data-num="8">8</button>
+    <button bindtap="clickDigt" data-num="7">7</button>
+</view>
+<view class="flex-wrp" style="flex-direction:row;">
+    <button bindtap="opersystem" data-num="-">-</button>
+    <button bindtap="clickDigt" data-num="6">6</button>
+    <button bindtap="clickDigt" data-num="5">5</button>
+    <button bindtap="clickDigt" data-num="4">4</button>
+</view>
+<view class="flex-wrp" style="flex-direction:row;">
+    <button bindtap="opersystem" data-num="x">x</button>
+    <button bindtap="clickDigt" data-num="3">3</button>
+    <button bindtap="clickDigt" data-num="2">2</button>
+    <button bindtap="clickDigt" data-num="1">1</button>
+</view>
+<view class="flex-wrp" style="flex-direction:row;">
+    <button bindtap="opersystem" data-num="/">/</button>
+    <button bindtap="clickOper" data-num="C">C</button>
+    <button bindtap="clickDigt" data-num="0">0</button>
+    <button bindtap="opersystem" data-num="=">=</button>
+</view>
